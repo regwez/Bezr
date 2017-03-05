@@ -33,7 +33,7 @@ class SortingTests: XCTestCase {
         super.tearDown()
     }
 
-  /*  func testRadixSort() {
+    func testRadixSort() {
         var unsortedData = [UInt16](_data)
        radixSortUInt16(&unsortedData)
 
@@ -53,7 +53,7 @@ class SortingTests: XCTestCase {
             }
         }
     }
-*/
+
     func testStandardSortPerformance() {
         // This is an example of a performance test case.
 

@@ -13,6 +13,10 @@ Prerequisites
 
 To build the project you need XCode 8.2 and command line tools or Swift for linux tools.
 
+TODO
+-----------
+*   Pick better naming
+
 
 Contributing
 ------------

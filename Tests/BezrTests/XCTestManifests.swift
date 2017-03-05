@@ -31,8 +31,8 @@ extension SearchTests {
 extension SortingTests {
 
     static var allTests = [
-      //  ("testRadixSort", testRadixSort),
-    //    ("testRadixSortPerformance", testRadixSortPerformance),
+        ("testRadixSort", testRadixSort),
+        ("testRadixSortPerformance", testRadixSortPerformance),
         ("testStandardSortPerformance",testStandardSortPerformance),
         ("testStandardBlockSortPerformance",testStandardBlockSortPerformance),
 

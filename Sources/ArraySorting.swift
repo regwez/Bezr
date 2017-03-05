@@ -43,6 +43,7 @@ func internalRadixSortUInt16(_ array:inout [UInt16], offset:Int, end:Int, shift:
         last[Int(index)] += 1
     }
 
+
     last[0] += offset;
     pointer[0] = offset;
     for x in 1..<256  {
@@ -58,7 +59,7 @@ func internalRadixSortUInt16(_ array:inout [UInt16], offset:Int, end:Int, shift:
             while UInt16(x) != y {
                 temp = array[pointer[Int(y)]]
                 array[pointer[Int(y)]] = value
-                y += 1
+                pointer[Int(y)] += 1
                 value =  temp
                 y = (value >> shift) & 0xFF
             }
