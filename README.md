@@ -1,8 +1,10 @@
+[![Build Status](https://travis-ci.org/regwez/Bezr.svg?branch=master)](https://travis-ci.org/regwez/Bezr)
+![macOS](https://img.shields.io/badge/os-macOS-green.svg?style=flat)
+![Linux](https://img.shields.io/badge/os-linux-green.svg?style=flat)
+<!-- ![Platforms](https://img.shields.io/badge/platforms-Linux%20%7C%20iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS-lightgrey.svg?style=flat) -->
+![Swift 3.0.x](http://img.shields.io/badge/Swift-3.0.x-orange.svg?style=flat)
 
 [![License](https://img.shields.io/github/license/regwez/Bezr.svg)](https://github.com/regwez/Bezr/blob/master/LICENSE)
-![Platforms](https://img.shields.io/badge/platforms-Linux%20%7C%20iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS-lightgrey.svg?style=flat)
-![Swift 3.0.x](http://img.shields.io/badge/Swift-3.0.x-orange.svg?style=flat)
-[![Build Status](https://travis-ci.org/regwez/Bezr.svg?branch=master)](https://travis-ci.org/regwez/Bezr)
 
 # Bezr
 
