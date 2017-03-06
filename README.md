@@ -1,5 +1,5 @@
 
-[![][license img]][license]
+[![License](https://img.shields.io/github/license/regwez/Bezr.svg)](https://github.com/regwez/Bezr/blob/master/LICENSE)
 ![Platforms](http://img.shields.io/badge/platforms-iOS%20|%20macOS-lightgrey.svg?style=flat)
 ![Swift 3.0.x](http://img.shields.io/badge/Swift-3.0.x-orange.svg?style=flat)
 [![Build Status](https://travis-ci.org/regwez/Bezr.svg?branch=master)](https://travis-ci.org/regwez/Bezr)

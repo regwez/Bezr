@@ -6,6 +6,7 @@ env:
   - FRAMEWORK_NAME=Bezr
 script:
   - swift build
+  - swift test
 
 # provider: releases
 #   api_key:
