@@ -1,0 +1,22 @@
+sudo: required
+language: swift
+dist: xenial
+env:
+  global:
+  - FRAMEWORK_NAME=Bezr
+before_install:
+  - wget -q -O - https://swift.org/keys/all-keys.asc | gpg --import -
+  - wget https://swift.org/builds/swift-3.0.2-release/ubuntu1604/swift-3.0.2-RELEASE/swift-3.0.2-RELEASE-ubuntu16.04.tar.gz
+  - tar xzf swift-3.0.2-RELEASE-ubuntu16.04.tar.gz
+  - export PATH=${PWD}/swift-3.0.2-RELEASE-ubuntu16.04/usr/bin:"${PATH}"
+script:
+  - swift build
+
+# provider: releases
+#   api_key:
+#     secure: MufQRIzcHPU5fn9gyXl7kDGaLihN6zGABx9UWqNtkwq0AxV0aYNWys11nrKDIgoZFR+MbQHMoodpZK03yDdCLG03ncnOr3aytLOpI0imuDFWx16sieiVoYmnP5bfNFTN0qqXdfBy0OOsx4wO+F5Pwg5y1TgGYnKpXtEfdIU3Om4=
+#   file: Bezr.zip
+#   skip_cleanup: true
+#   on:
+#     repo: regwez/Bezr
+#     tags: true
